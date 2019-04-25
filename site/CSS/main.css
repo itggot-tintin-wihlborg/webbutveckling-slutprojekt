@@ -34,6 +34,8 @@ header{
 .box{
     display: inline-block;
     border-right: solid black;
+    height: 50px;
+    width: 100px;
 }
 .box:last-child{
     border-right: none;
@@ -53,7 +55,43 @@ header{
 
     font-size: 2.5rem;
 }
-.box{
-    height: 50px;
-    width: 100px;
+a{
+
+    text-decoration: none;
+    height: 40px;
+    color: black;
+}
+.infomain{
+    background-color: grey;
+    height: calc(100% - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infotextbox{
+    background-color: white;
+    height: 95%;
+    width: 90%;    
+}
+.item{
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    border-bottom: solid black;
+    display: grid;
+    grid-template-columns: 80px auto 120px;
+}
+.quickadd{
+    background-color: limegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-left: solid black;
+}
+.img{
+    height: 80px;
+    width: 80px;
+    background-size: 100%;
+    background-image: url("../IMG/burger\ 2.jpg")
 }
